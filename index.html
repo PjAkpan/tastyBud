@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <script src="./src/js/jquery.min.js"></script>
+        <link rel="icon" href="./src/img/favicon-32x32.png" />
+    <title>TastyBud Food Delivery </title>
+</head>
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> <a class="navbar-brand" href="./index.html"><img src="./src/img/Logo Tastybud.png"></a>
+    <button
+    class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="./index.html">Welcome<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="./index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="./login.html">Sign in/up</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="./order.html">Order</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<body>
+
+    <div class="block hero1 my-auto" style="background-image:url(src/img/welcome.jpg);">
+        <div class="container-fluid text-center">
+             <h1 class="display-2 text-white" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-offset="0">Order TastyBud Meal</h1>
+            <p class="lead text-white" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="600">Our physical store is closed for the moment, but we will still deliver your order to your place!</p>
+            <a
+            href="#menu" class="btn-text lead d-inline-block text-white border-top border-bottom mt-4 pt-1 pb-1"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">View Our Menu</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="maincontent">
+        <div class="container">
+            <section id="menu">
+                <div class="block menu1">
+                    <div class="buttons-container"> <a href="#" class="button button--is-active" data-target="soupMenu">Soups</a>
+                        <a
+                        href="#" class="button" data-target="proteinMenu">Protein</a> <a href="#" class="button" data-target="sideMenu">Side</a>
+                        <a
+                        href="#" class="button" data-target="BowlMenu">Bowl Order</a> <a href="#" class="button" data-target="allMenu">All Menu</a>
+                    </div>
+                    
+                    
+    <!-- Start Soup Menu -->
+    <div class="menu menu--is-visible" id="soupMenu" data-aos="fade-up">
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/afangsoup.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Afang Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#3000</span>
+                </div>
+                <p class="item__description"> Soup, 3Pcs of Beef/Assorted With 2 Wraps Of
+                 (Eba, Semo Or Fufu).</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="1" data-name="Cheese Pizza" data-price="15" data-quantity="1"
+                data-image="./img/afangsoup.jpg">Add to cart</button>
+            </div>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/bangaSoup.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Banga Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#3000</span>
+                </div>
+                <p class="item__description">  Soup, 3Pcs of Beef/Assorted With 2 Wraps Of
+                    (Eba, Semo Or Fufu) .</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="2" data-name="Hot Pastrami" data-price="25" data-quantity="1"
+                data-image="./img/bangaSoup.jpg">Add to cart</button>
+            </div>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/okro.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Okro Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#3000</span>
+                </div>
+                <p class="item__description"> Soup, 3Pcs of Beef/Assorted With 2 Wraps Of
+                    (Eba, Semo Or Fufu) .</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+                data-image="./img/okro.jpg">Add to cart</button>
+            </div>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/white.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Afia Efere Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#3000</span>
+                </div>
+                <p class="item__description"> Soup, 3Pcs of Beef/Assorted With 2 Wraps Of
+                    (Eba, Semo Or Fufu).</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="4" data-name="Country Pizza" data-price="17" data-quantity="1"
+                data-image="./img/white.jpg">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Soup Menu -->
+
+
+     <!-- Start Protein Menu -->
+     
+     <div class="menu menu--is-visible" id="proteinMenu" data-aos="fade-up">
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/turkey.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Fried Peppered Turkey</h3>
+<span class="item__dots"></span>
+<span class="item__price">#2700</span>
+                </div>
+                <p class="item__description"> 2pcs.</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="1" data-name="Cheese Pizza" data-price="15" data-quantity="1"
+                data-image="./src/img/turkey.jpg">Add to cart</button>
+            </div>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/chicken.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Fried Peppered Chicken</h3>
+<span class="item__dots"></span>
+<span class="item__price">#1700</span>
+                </div>
+                <p class="item__description"> 2pcs.</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="2" data-name="Hot Pastrami" data-price="25" data-quantity="1"
+                data-image="./src/img/chicken.jpg">Add to cart</button>
+            </div>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/fish-fry-1.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">Fried Fish</h3>
+<span class="item__dots"></span>
+<span class="item__price">#1500</span>
+                </div>
+                <p class="item__description"> 1pc .</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+                data-image="./src/img/fish-fry-1.jpg">Add to cart</button>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Protein Menu -->
+    
+
+ <!-- Start Bowl Menu -->
+     
+ <div class="menu menu--is-visible" id="BowlMenu" data-aos="fade-up">
+    <div class="item row align-items-center">
+        <div class="col-sm-3 pr-5">
+            <img class="product-img" src="./src/img/turkey.jpg">
+        </div>
+        <div class="details col-sm-9">
+            <div class="item__header">
+                 <h3 class="item__title">3 liters Egusi Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#13,000</span>
+            </div>
+            <p class="item__description"> comes with beef and assorted.</p>
+            <button class="btn btn-sm btn-outline-primary my-cart-btn"
+            data-id="1" data-name="Cheese Pizza" data-price="15" data-quantity="1"
+            data-image="./src/img/turkey.jpg">Add to cart</button>
+        </div>
+    </div>
+    <div class="item row align-items-center">
+        <div class="col-sm-3 pr-5">
+            <img class="product-img" src="./src/img/chicken.jpg">
+        </div>
+        <div class="details col-sm-9">
+            <div class="item__header">
+                 <h3 class="item__title">3 liters Chicken Stew</h3>
+<span class="item__dots"></span>
+<span class="item__price">#14,000</span>
+            </div>
+            <p class="item__description"> comes with chicken only.</p>
+            <button class="btn btn-sm btn-outline-primary my-cart-btn"
+            data-id="2" data-name="Hot Pastrami" data-price="25" data-quantity="1"
+            data-image="./src/img/chicken.jpg">Add to cart</button>
+        </div>
+    </div>
+    <div class="item row align-items-center">
+        <div class="col-sm-3 pr-5">
+            <img class="product-img" src="./src/img/fish-fry-1.jpg">
+        </div>
+        <div class="details col-sm-9">
+            <div class="item__header">
+                 <h3 class="item__title">3 Liters of any Soup</h3>
+<span class="item__dots"></span>
+<span class="item__price">#17,000</span>
+            </div>
+            <p class="item__description"> comes with and portein of your choice .</p>
+            <button class="btn btn-sm btn-outline-primary my-cart-btn"
+            data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+            data-image="./src/img/fish-fry-1.jpg">Add to cart</button>
+        </div>
+        <div class="item row align-items-center">
+            <div class="col-sm-3 pr-5">
+                <img class="product-img" src="./src/img/fish-fry-1.jpg">
+            </div>
+            <div class="details col-sm-9">
+                <div class="item__header">
+                     <h3 class="item__title">3 Liters  Stew</h3>
+    <span class="item__dots"></span>
+    <span class="item__price">#26,000</span>
+                </div>
+                <p class="item__description"> comes with prawns,fish,beef and assorted .</p>
+                <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+                data-image="./src/img/fish-fry-1.jpg">Add to cart</button>
+            </div>
+    </div>
+        </div>
+    </div>
+</div>
+<!-- End Protein Menu -->
+
+
+    <script src="./src/js/mycart.js"></script>
+                    <script src="./src/js/mycart-custom.js"></script>
+                </section>
+            </div>
+        </div>
+        <div class="nav-item my-cart-icon">
+            <img src="./src/img/cart.svg" style="width:20px;"> <span class="badge badge-notify my-cart-badge"> </span>
+        </div>
+        <footer class="block footer1 footer text-center">
+            <p>&copy; <a href="https://bootstrapstarter.com/bootstrap-templates/template-fooddelivery-bootstrap-html/">"Food Delivery"</a> by
+                Mbok Connect</p>
+        </footer>
+
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="src/js/custom-general.js"></script>
+</body>
+</html>
